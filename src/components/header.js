@@ -36,7 +36,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <p style={{ padding: "0.3em", color: "white", fontFamily: "monospace" }}>
-        Front End Developer
+        Web Developer / Illustrator
       </p>
     </div>
     <ul className="menu">
@@ -56,6 +56,7 @@ const Header = ({ siteTitle }) => (
         color: "white",
         fontFamily: "monospace",
         textAlign: "center",
+        padding: "1em 0",
       }}
     >
       <a href="https://www.facebook.com/coderprans" target="_blank">
