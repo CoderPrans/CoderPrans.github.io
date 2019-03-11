@@ -36,17 +36,17 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <p style={{ padding: "0.3em", color: "white", fontFamily: "monospace" }}>
-        Web Developer / Illustrator
+        Front End Developer
       </p>
     </div>
     <ul className="menu">
-      <Link to="/work">
-        <li>Work</li>
-      </Link>
       <Link to="/">
         <li>About</li>
       </Link>
-      <Link to="/page-2">
+      <Link to="/work">
+        <li>Work</li>
+      </Link>
+      <Link to="/contact">
         <li>Contact</li>
       </Link>
     </ul>
