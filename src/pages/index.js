@@ -13,7 +13,7 @@ const IndexPage = () => (
         Hey, I'm <b>Pranav Bhaskar</b>,
         <br />I like making websites and progressive web apps that make this
         world a better place. <br />
-        <Link to="/page-2">Contact</Link> for freelance work.
+        <Link to="/contact">Contact</Link> for freelance work.
       </p>
     </div>
   </Layout>

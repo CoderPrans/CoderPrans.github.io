@@ -658,7 +658,7 @@ pre tt:after {
 .menu li:hover {
   color: #ccc;
 }
-footer span {
+.profiles {
   border-bottom: 1px dashed #ccc;
 }
 footer span:hover {

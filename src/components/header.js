@@ -59,16 +59,16 @@ const Header = ({ siteTitle }) => (
         padding: "1em 0",
       }}
     >
-      <a href="https://www.facebook.com/coderprans" target="_blank">
-        <span>facebook</span>
-      </a>{" "}
-      •{" "}
+      <a href="https://www.linkedin.com/in/coderprans" target="_blank">
+        <span className="profiles">linkedIn</span>
+      </a>
+      <span> • </span>
       <a href="https://github.com/CoderPrans" target="_blank">
-        <span>github</span>
-      </a>{" "}
-      •{" "}
+        <span className="profiles">github</span>
+      </a>
+      <span> • </span>
       <a href="https://twitter.com/coderprans" target="_blank">
-        <span>twitter</span>
+        <span className="profiles">twitter</span>
       </a>
     </footer>
   </header>
