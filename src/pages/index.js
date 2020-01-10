@@ -8,12 +8,18 @@ const IndexPage = () => (
   <Layout>
     <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
     <div className="intro" style={{}}>
-      <h1>👋 Hello </h1>
+      <h1>
+        <span role="img" aria-label="waving hand">
+          👋
+        </span>
+        Hello
+      </h1>
       <p>
         Hey, I'm <b>Pranav Bhaskar</b>,
-        <br />I like making websites and progressive web apps that make this
-        world a better place. <br />
-        <Link to="/contact">Contact</Link> for freelance work.
+        <br />I like making websites and apps that <br /> makes life easier and
+        meaningful.
+        <br />
+        <Link to="/contact">Hire me</Link> for freelance work.
       </p>
     </div>
   </Layout>

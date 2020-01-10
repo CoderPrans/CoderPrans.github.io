@@ -7,6 +7,9 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `#222`,
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "space-between",
     }}
   >
     <div
@@ -53,21 +56,32 @@ const Header = ({ siteTitle }) => (
     <br />
     <footer
       style={{
-        color: "white",
         fontFamily: "monospace",
         textAlign: "center",
-        padding: "1em 0",
+        padding: "2.3em 0",
       }}
     >
-      <a href="https://www.linkedin.com/in/coderprans" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/coderprans"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <span className="profiles">linkedIn</span>
       </a>
       <span> • </span>
-      <a href="https://github.com/CoderPrans" target="_blank">
+      <a
+        href="https://github.com/CoderPrans"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <span className="profiles">github</span>
       </a>
       <span> • </span>
-      <a href="https://twitter.com/coderprans" target="_blank">
+      <a
+        href="https://twitter.com/coderprans"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <span className="profiles">twitter</span>
       </a>
     </footer>

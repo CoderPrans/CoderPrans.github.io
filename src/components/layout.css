@@ -51,7 +51,6 @@ a:hover {
 }
 abbr[title] {
   border-bottom: none;
-  text-decoration: underline;
   text-decoration: underline dotted;
 }
 b,
@@ -202,7 +201,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -220,7 +219,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  /* margin-bottom: 1.45rem; */
 }
 h1 {
   margin-left: 0;
@@ -617,12 +616,12 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 780px) {
   html {
     font-size: 100%;
   }
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 780px) {
   .layout-nav {
     display: flex;
   }
@@ -635,7 +634,7 @@ pre tt:after {
     max-width: 7em;
   }
   .intro {
-    padding: 3rem 5rem;
+    padding: 3rem 5rem 1rem 5rem;
   }
 }
 .intro {
@@ -645,6 +644,9 @@ pre tt:after {
 .intro a {
   color: inherit;
   border-bottom: 1px dashed #333;
+}
+.intro a:hover {
+  border: none;
 }
 .menu {
   list-style: none;
@@ -665,5 +667,8 @@ footer span:hover {
   border: none;
 }
 footer a {
-  color: #eee;
+  color: #ccc;
+}
+footer {
+  color: #ccc;
 }
