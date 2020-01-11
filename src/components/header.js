@@ -3,13 +3,10 @@ import PropTypes from "prop-types"
 import React from "react"
 import Image from "../components/image"
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, siteAuthor }) => (
   <header
     style={{
       background: `#222`,
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "space-between",
     }}
   >
     <div
@@ -19,11 +16,11 @@ const Header = ({ siteTitle }) => (
         textAlign: `center`,
       }}
     >
-      <h1 style={{ margin: 0, fontSize: "2.75rem" }}>
+      <h1 style={{ margin: 0, fontSize: "2rem" }}>
         <div
           style={{
             maxWidth: `150px`,
-            margin: `1.45rem auto`,
+            margin: `1.25rem auto`,
           }}
         >
           <Image />
@@ -35,7 +32,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          {siteAuthor}
         </Link>
       </h1>
       <p style={{ padding: "0.3em", color: "white", fontFamily: "monospace" }}>

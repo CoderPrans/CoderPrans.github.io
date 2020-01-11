@@ -617,6 +617,14 @@ pre tt:after {
   content: "";
 }
 @media only screen and (max-width: 780px) {
+  .layout-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    height: 50vh;
+    overflow: hidden;
+  }
   html {
     font-size: 100%;
   }
@@ -625,8 +633,18 @@ pre tt:after {
   .layout-nav {
     display: flex;
   }
+  .layout-nav main {
+    margin-left: 300px;
+  }
   header {
-    height: 100vh;
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
   }
   .menu {
     margin: 0 0 0 2em;

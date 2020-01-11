@@ -12,23 +12,25 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            author
           }
         }
       }
     `}
     render={data => (
-      <>
-        <div className="layout-nav">
-          <Header siteTitle={data.site.siteMetadata.title} />
-          <div
-            style={{
-              padding: `1.45rem`,
-            }}
-          >
-            <main>{children}</main>
-          </div>
-        </div>
-      </>
+      <div class="layout-nav">
+        <Header
+          siteAuthor={data.site.siteMetadata.author}
+          siteTitle={data.site.siteMetadata.title}
+        />
+        <main
+          style={{
+            padding: "15px",
+          }}
+        >
+          {children}
+        </main>
+      </div>
     )}
   />
 )
