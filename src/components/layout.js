@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import SlidingMenu from "./sliding-menu"
 import "./layout.css"
 
 const Layout = ({ children }) => (
@@ -23,6 +24,7 @@ const Layout = ({ children }) => (
           siteAuthor={data.site.siteMetadata.author}
           siteTitle={data.site.siteMetadata.title}
         />
+        <SlidingMenu />
         <main
           style={{
             padding: "15px",

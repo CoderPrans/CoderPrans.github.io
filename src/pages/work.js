@@ -23,7 +23,7 @@ const SecondPage = () => (
   <Layout>
     <SEO title="Contact" />
     <h1>Portfolio</h1>
-    <div style={{ display: "flex", flexWrap: "wrap", margin: "30px" }}>
+    <div style={{ display: "flex", flexWrap: "wrap" }}>
       {projects.map(project => (
         <div style={{ margin: "20px" }}>
           <img
