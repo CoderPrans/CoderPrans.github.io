@@ -16,8 +16,8 @@ const IndexPage = () => (
       </h1>
       <p>
         Hey, I'm <b>Pranav Bhaskar</b>,
-        <br />I like making websites and apps that <br /> makes life easier and
-        meaningful.
+        <br />I like making websites and apps that <br /> make life easier and
+        people happy.
         <br />
         <Link to="/contact">Hire me</Link> for freelance work.
       </p>

@@ -36,7 +36,7 @@ const Header = ({ siteTitle, siteAuthor }) => (
         </Link>
       </h1>
       <p style={{ padding: "0.3em", color: "white", fontFamily: "monospace" }}>
-        Front End Developer
+        Full Stack Developer
       </p>
     </div>
     <ul className="menu">

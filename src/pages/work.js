@@ -1,9 +1,9 @@
 import React from "react"
 //import { Link } from "gatsby"
-import astro from "../images/gatsby-astronaut.png"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Project from "../components/project"
 
 const projects = [
   "dungeon kings",
@@ -17,23 +17,16 @@ const projects = [
   "pomodoro goals",
   "wikipedia viewer",
   "feed reader",
+  "extrasave",
 ]
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Contact" />
+    <SEO title="Work" />
     <h1>Portfolio</h1>
-    <div style={{ display: "flex", flexWrap: "wrap" }}>
+    <div className="showcase" style={{}}>
       {projects.map(project => (
-        <div style={{ margin: "20px" }}>
-          <img
-            style={{ borderRadius: "10px" }}
-            src={astro}
-            width="200"
-            alt="dummy"
-          />
-          <p>{project}</p>
-        </div>
+        <Project project={project} />
       ))}
     </div>
   </Layout>
