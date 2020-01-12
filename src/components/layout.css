@@ -419,31 +419,43 @@ footer {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 form {
+  padding: 0px 20px;
   width: 100%;
   margin: 0 auto;
   max-width: 550px;
 }
 label {
-  font-size: 18px;
+  font-size: 15px;
   color: #333;
+  letter-spacing: 1px;
+  opacity: 0.8;
 }
 input[type="text"],
 input[type="email"],
 textarea {
-  padding: 20px;
-  border: 1px solid #c2c2c2;
+  padding: 15px;
+  border: 2px solid #d2e2d2;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 1.3rem;
   width: 100%;
-  margin: 10px 15px 20px 0px;
+  margin: 5px 0 20px 0;
+  background: #efe;
 }
 [type="submit"] {
   padding: 10px 15px;
   font-size: 18px;
+  background: #ddd;
+  border: 2px solid #d2e2d2;
+  border-radius: 5px;
   color: #333;
-  margin: 10px auto;
+  margin: 5px auto;
+  cursor: pointer;
+}
+[type="submit"]:hover {
+  background: lightgreen;
 }
 textarea {
   resize: vertical;
   min-height: 180px;
+  line-height: 145%;
 }
