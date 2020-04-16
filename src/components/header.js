@@ -43,9 +43,7 @@ const Header = ({ siteTitle, siteAuthor }) => (
       <Link to="/">
         <li>About</li>
       </Link>
-      <Link to="/work">
-        <li>Work</li>
-      </Link>
+      <li style={{ opacity: "0.7" }}>Work</li>
       <Link to="/contact">
         <li>Contact</li>
       </Link>

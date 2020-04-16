@@ -16,10 +16,10 @@ const IndexPage = () => (
       </h1>
       <p>
         Hey, I'm <b>Pranav Bhaskar</b>,
-        <br />I like making websites and apps that <br /> make life easier and
+        <br />I like making websites and PWAs that <br /> make life easier and
         people happy.
         <br />
-        <Link to="/contact">Hire me</Link> for freelance work.
+        <Link to="/contact">Get Started</Link>
       </p>
     </div>
   </Layout>
